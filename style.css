@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  min-height: 85vh;
+  width: 35rem;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, .2), 0 0 50px rgba(0, 0, 0, .2);
+  border-radius: 25px;
+  padding: 0 3rem;
+}
+
+.sneaker {
+  min-height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sneaker img {
+  width: 25rem;
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: #833ab4;
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgb(253, 29, 29) 50%, rgba(252, 176, 69, 1) 100%);
+  z-index: -1;
+  position: absolute;
+}
+
+.info h1 {
+  font-size: 3rem;
+}
+
+.info h3 {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: #4c566a;
+  padding: 1rem .5rem;
+
+}
+
+.sizes {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sizes button {
+  background-color: none;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  padding: .5rem 1rem;
+  color: #4c566a;
+  border-radius: 30px;
+}
+
+.purchase button{
+  margin-top: 3rem;
+  width: 100%;
+  border-radius: 30px;
+  padding: 1rem 2rem;
+  border: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+  color: #4c566a;
+  cursor: pointer;
+}
